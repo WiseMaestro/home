@@ -69,8 +69,8 @@ export RPS1='%F{cyan}%. %K{blue}%F{green}%T%F{white}'
 #   | /bin/grep -m 1 total | /bin/sed 's/total //')b\[\e[0m\])\[\e[0m\])--> \[\e[0m\]"
 
 export PATH=/opt/local/bin:/opt/local/sbin:~/bin:/Applications/Emacs.app/Contents/MacOS/:/Applications/Emacs.app/Contents/MacOS/bin/:$PATH
-export PS1='$(echo -e "\n ")%B%F{cyan}╭─=%b%F{green}(%F{cyan}$(pwd)%F{green})-%F{green}(%F{red}%?%F{green})-(%F{yellow}%n%F{red}@%F{yellow}%M%k%F{green})$(echo -e "\n ")%F{cyan}╰─\
-=%F{green}((%F{yellow}$(ls -1 | wc -l | sed "s: ::g")files , $(ls -lah | grep -m 1 total | sed -e "s%total %%")%F{green}))%F{yellow}--%B%F{white}$SHORTSHELL%F{green}%#%F{white}:--%F{green}\$>%F{white} '
+export PS1='$(echo -e "\n ")%B%F{cyan}╭─=%b%F{green}(%F{cyan}$(pwd)%F{green})-%F{green}(%F{red}%?%F{green})-(%F{yellow}%n%F{red}@%F{yellow}%M%k%F{green})$(echo -e "\n ")%B%F{cyan}╰─\
+=%b%F{green}((%F{yellow}$(ls -1 | wc -l | sed "s: ::g")files , $(ls -lah | grep -m 1 total | sed -e "s%total %%")%F{green}))%F{yellow}--%B%F{white}$SHORTSHELL%F{green}%#%F{white}:--%F{green}\$>%F{white} '
 
 
 
