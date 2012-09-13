@@ -1,0 +1,100 @@
+:q
+(fromIntegral (2 :: Int))
+:t (fromIntegral (2 :: Int))
+:t (fromIntegral 2)
+fromIntegral 2
+fromIntegral 2 Double
+fromIntegral 2 2.0
+fromIntegral 2 5.0
+x = fromIntegral 2 5.0
+x = fromIntegral 5.0 2
+x=fromIntegral 5.0 2
+fromIntegral 5.0 2
+:t fromIntegral
+fromIntegral 5.0 2
+fromIntegral (5.0 :: Double) (2 :: Int)
+succ '&'
+[3..5]
+[LT ..GT]
+succ ('a', 1)
+succ 'b'
+succ ('a')
+succ (1)
+succ ()
+:t (+)
+:t +
+:t doubleUs
+:t head
+circumfrence 5
+:t circumfrence
+let circumfrence r = 2 * pi * r
+let circumfrence :: Double -> Double circumfrence r = 2 * pi * r
+let circumfrence :: Double -> Double
+circumfrence' :: Double -> Double
+:t doubleUs
+doubleUs 3 5
+:t rightTriangles
+:t doubleUs
+:t removeNonUpperCase
+:t (True, 'a')
+:t "HELLO!"
+:t True
+:t 'a'
+rightTriangles
+let rightTriangles = [ (a,b,c) | c <- [1..10], b <- [1..c], a <- [1..b], a^2 + b^2 == c^2]
+[x | x <- [50..100], mod x 7 == 3, odd x]
+[x | x <- [50..100], mod x 7 == 3]
+[ x*y | x <- [2,4,5], y <- [9,6,3]]
+removerNonUppercase "Hello Young Toddlers"
+let removerNonUppercase st = [ c | c <- st, c `elem` ['A'..'Z']]
+[ x*y | x <- [2,4,5], y <- [9,6,3]]
+[ x*y | x <- [2,4,5], y <- [3, 6, 9]]
+boomBangs [7..13]
+boomBangs [1..100]
+boombangs [1..100]
+let boomBangs xs = [ if x < 10 then "BOOM!" else "BANG!" | x <- xs, odd x ]
+boomBangs xs = [ if x < 10 then "BOOM!" else "BANG!" | x <- xs, odd x ]
+boomBangs xs = [ if x < 10 then "BOOM!" else "BANG!" | x <- xs, odd x]
+[x | x <- [50..100], mod x 7 == 3]
+[x | x <- [50..100], x % 7 == 3]
+[x*2 | x <- [1..10], x*2>=12, x /= 7]
+[x*2 | x <- [1..10], x*2>=12 && x /= 7]
+[x*2 | x <- [1..10], x*2>=12 && x /= 14]
+[x*2 | x <- [1..10], x*2>=12, x /= 14]
+[x*2 | x <- [1..10], x*2>=12]
+[x*2 | x <- [1..10]]
+[20,19..1]
+[20,19..1
+[20..1]
+[4,18..1000]
+[2,4..20]
+[1..20]
+4 elem [5,4,3,2,1]
+4 `elem` [5,4,3,2,1]
+elem 4 [5,4,3,2,1]
+take 3 [5,4,3,2,1]
+reverse "hello"
+null firstfivefib
+null []
+last firstfivefib
+tail firstfivefib
+head firstfivefib
+firstfivefib !! 4
+firstfivefib[1]
+firstfivefib [] 1
+firstfivefib
+let firstfivefib = [1,1,2,3,5]
+doubleUs 3 5
+let doubleUs x y = x + x + y + y
+doubleMe 3
+:l baby.hs
+:quit
+:exit
+eixt
+fun
+list
+exit 1
+quit
+exit
+end
+kill

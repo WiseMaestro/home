@@ -1,0 +1,132 @@
+((("mainInstance" .
+   [6 0 0 0 0 0 0 0 0 0 0 0])
+  ("company-emacs-eclim-setup" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("company-emacs-eclim" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("context" .
+   [1 0 0 0 0 0 0])
+  ("configure-company-mode" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("init-eclim" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("lambda" .
+   [1 0 0 0 0 0])
+  ("set-up-paredit-and-eldocs" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("global-key-setup" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("speedbar-set-up" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("paredit-mode-keymap-init" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("is" .
+   [1 0])
+  ("paredit-forward-barf-sexp" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("paredit" .
+   [1 0 0 0 0 0 0])
+  ("RuntimeException" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("throw" .
+   [1 0 0 0 0])
+  ("e" .
+   [2])
+  ("InterruptedException" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("catch" .
+   [1 0 0 0 0])
+  ("60" .
+   [1 0])
+  ("1" .
+   [1])
+  ("MILLIS_TO_WAIT" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("int" .
+   [1 0 0])
+  ("final" .
+   [1 0 0 0 0])
+  ("static" .
+   [1 0 0 0 0 0])
+  ("public" .
+   [1 0 0 0 0 0])
+  ("s" .
+   [1])
+  ("table" .
+   [1 0 0 0 0])
+  ("compact" .
+   [1 0 0 0 0 0 0])
+  ("flush" .
+   [1 0 0 0 0])
+  ("hbaseConf" .
+   [1 0 0 0 0 0 0 0 0])
+  ("h" .
+   [1])
+  ("create" .
+   [1 0 0 0 0 0])
+  ("c" .
+   [3])
+  ("Configuration" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("HBase" .
+   [1 0 0 0 0])
+  ("conf" .
+   [3 0 0 0])
+  ("HBaseConfiguration" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("tableName" .
+   [3 0 0 0 0 0 0 0 0])
+  ("new" .
+   [1 0 0])
+  ("admin" .
+   [2 0 0 0 0])
+  ("HBaseAdmin" .
+   [4 0 0 0 0 0 0 0 0 0])
+  ("t" .
+   [1])
+  ("TABLE_NAME_PARAM" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("global-set-key" .
+   [3 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("start-eclimd" .
+   [0 0 0 0 0 0 1 0 0 0 0 0])
+  ("interactive" .
+   [0 0 0 0 0 1 0 0 0 0 0])
+  ("defun" .
+   [4 0 0 1 0])
+  ("setq" .
+   [2 0 0 0])
+  ("eclimd" .
+   [1 0 0 0 0 0])
+  ("eclim-executable" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("key-binding" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("eclim-mode" .
+   [0 0 0 0 0 0 0 0 0 1])
+  ("define-key" .
+   [6 0 0 0 0 0 0 0 0 0])
+  ("eclim-mode-map" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("kbd" .
+   [6 0 0])
+  ("eclim-problems" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("hello" .
+   [1 0 0 0 0])
+  ("paredit-mode" .
+   [3 0 0 0 0 0 0 0 0 0 0 0])
+  ("keymap" .
+   [1 0 0 0 0 0])
+  ("paredit-mode-map" .
+   [3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("paredit-forward-slurp-sexp" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("paredit-backward-slurp-sexp" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("get" .
+   [1 0 0])
+  ("getProperty" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("counter" .
+   [1 0 0 0 0 0 0])))

@@ -1,0 +1,20 @@
+#!/bin/zsh 
+
+
+## The intent of this script is to foreground an emacs process instead of creating a new one
+## assuming you alias emacs with this script
+
+
+if [[ -n $1 ]];then
+    echo $1 > $HOME/tmp/emacsStartFile
+    touch $HOME/tmp/emacsHasArg
+fi
+
+
+EMACSJOB=$(jobs | grep -v grep | egrep '*suspended[^a-z^A-Z]*$' | head -n 1 | cut -d ' ' -f 1 | cut -d '[' -f 2 | cut -d ']' -f 1)
+
+if [[ -n $EMACSJOB ]];then
+   fg %$EMACSJOB
+else
+   Emacs -nw "$@"
+fi

@@ -1,0 +1,35 @@
+#!/bin/bash
+RAND=$(cat /dev/urandom | tr -cd 'a-f0-9' | head -c 32)
+tmux new-session -d -s $USER$RAND
+tmux rename-window 'localhost'
+tmux new-window -t $USER$RAND:1 -n 'prod' "ssh $USER@indexing-server"
+tmux new-window -t $USER$RAND:2 -n 'dev' "ssh $USER@indexing-server-dev"
+
+tmux select-window -t $USER$RAND:0 
+tmux set-window-option automatic-rename off
+
+tmux select-window -t $USER$RAND:1 
+tmux set-window-option automatic-rename off
+tmux send-keys "screen -x || screen -S common"
+tmux send-keys "Enter"
+
+tmux select-window -t $USER$RAND:2
+tmux set-window-option automatic-rename off
+tmux send-keys "screen -x || screen -S common"
+tmux send-keys "Enter"
+
+tmux select-window -t $USER$RAND:1
+tmux set-window-option automatic-rename off
+#tmux send-keys "set -o $EDITORMODE" 
+#tmux send-keys "Enter"
+
+tmux select-window -t $USER$RAND:2
+tmux set-window-option automatic-rename off
+#tmux send-keys "set -o $EDITORMODE"
+#tmux send-keys "Enter"
+
+
+
+tmux select-window -t $USER$RAND:0
+tmux -2 attach-session -t $USER$RAND
+
