@@ -75,4 +75,5 @@ export PS1='$(echo -e "\n ")%B%F{cyan}╭─=%b%F{green}(%F{cyan}$(pwd)%F{green}
 
 
 
-export SVNHOME=svn://mayfield.explorys/source/
+
+. ~/.zshexplorys
