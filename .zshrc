@@ -54,7 +54,7 @@ export PATH=$HBASE_HOME/bin:$HADOOP_HOME/bin:$PATH
 
 
 
-alias emacs="source startemacs"
+alias emacs="emacs -nw"
 alias ls="ls --color=auto"
 export EDITOR='emacs -nw'
 export VISUAL='emacs -nw'
@@ -72,8 +72,11 @@ export PATH=/opt/local/bin:/opt/local/sbin:~/bin:/Applications/Emacs.app/Content
 export PS1='$(echo -e "\n ")%B%F{cyan}╭─=%b%F{green}(%F{cyan}$(pwd)%F{green})-%F{green}(%F{red}%?%F{green})-(%F{yellow}%n%F{red}@%F{yellow}%M%k%F{green})$(echo -e "\n ")%B%F{cyan}╰─\
 =%b%F{green}((%F{yellow}$(ls -1 | wc -l | sed "s: ::g")files , $(ls -lah | grep -m 1 total | sed -e "s%total %%")%F{green}))%F{yellow}--%B%F{white}$SHORTSHELL%F{green}%#%F{white}:--%F{green}\$>%F{white} '
 
+export PS1='$(echo -e "\n ")[1;36m╭─=[0;32m([0;36m$(pwd)[0;32m)-([0;31m%?[0;32m)-([0;33m%n[0;31m@[0;33m%M%k[0;32m)$(echo -e "\n ")[1;36m╰─\
+=[0;32m(([0;33m$(ls -1 | wc -l | sed "s: ::g")files , $(ls -lah | grep -m 1 total | sed -e "s%total %%")[0;32m))[0;33m--[1;37m$SHORTSHELL[1;32m%#[1;37m:--[1;32m\$>[0m '
+
+export RPS1='[0;36m%. [0;32m%T[0m[100C[-1;20f'
+export RPS1=''
 
 
-
-
-. ~/.zshexplorys
+. ~/.zshSite
